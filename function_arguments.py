@@ -1,10 +1,14 @@
-# def student_info(*args, **kwargs):
-#     print(args)
-#     print(kwargs)
+def student_info(*args, **kwargs):
+    print(args)
+    print(kwargs)
 
-# courses = ('Math','Science')
-# details = {'name':'ajay','age':'27'}
-# student_info(*courses, **details)
+courses = ('Math','Science')
+details = {'name':'ajay','age':'27'}
+student_info(*courses, **details)
+
+
+
+
 
 
 def std_list(*args, **kwargs):

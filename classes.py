@@ -25,7 +25,7 @@ class Employee:
         # print(self.first + self.last)
 
 emp_1 = Employee('ajay', 'thakur', 5000)
-emp_2 = Employee('Panche', 'Chau', 1000)
+emp_2 = Employee('Panche', 'Chaudhary', 1000)
 # emp1.fullname()
 print(emp_2.fullname())
 
