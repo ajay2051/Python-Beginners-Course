@@ -89,3 +89,46 @@ if a == b:
     print('Palindrome')
 else:
     print('Not palindrome')
+
+
+
+class hello:
+    def __init__(self, a='Welcome to'):
+        self.a = a
+
+    def welcome(self,x):
+        print(self.a + x)
+h = hello()
+h.welcome("Turing")
+
+
+data = [1,2,3]
+def incr(x):
+    return x + 1
+
+print(list(map(incr, data)))
+
+
+a  ='abcd'
+for i in range(len(a)):
+    a[i].upper()
+print(a)
+
+t = '%(a)s %(b)s %(c)s'
+print(t % dict(a='welcome', b='to', c='turing'))
+
+
+print(2**(3**2), (2**3)**2, (2**3)**3)
+
+l = [1,2,3,4,5]
+m = map(lambda x: 2**x, l)
+print(list(m))
+
+
+import re
+result = re.findall('Welcome to turing', 'Welcome', 1)
+print(result)
+
+print('Ajay'.capitalize())
+
+
