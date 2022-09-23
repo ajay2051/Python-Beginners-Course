@@ -3,7 +3,7 @@ uniques = []
 for number in numbers:
     if number not in uniques:
         uniques.append(number)
-    print(uniques)
+print(uniques)
 
 
 
