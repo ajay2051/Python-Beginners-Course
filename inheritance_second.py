@@ -18,6 +18,7 @@ class Developers(Employee):
 
     def __init__(self, first, last, pay, lang):
         super().__init__(first, last, pay)
+        # Employee.__init__(self,first, last,pay)
         self.lang = lang
 
 dev_1 = Developers('Ajay', 'Thakur', 20000, 'Python')
